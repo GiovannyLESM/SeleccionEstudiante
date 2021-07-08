@@ -9,7 +9,7 @@ from src.seleccionestudiante.modelo.declarative_base import Session
 
 class AsignaturaTestCase ( unittest.TestCase ) :
     def setUp ( self ) :
-        # Crea una sorteo para hacer las pruebas
+        # Crea una sorteo para hacer las prueba
         self.sorteo = Sorteo ( )
 
         # Abre la sesión
